@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
 
@@ -12,6 +12,7 @@
     <title>Home</title>
 
     <!-- Custom fonts for this template-->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3133/3133718.png" />
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3133/3133718.png" />
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -32,7 +33,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -44,7 +45,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.php">
                     <i class="fas fa-door-open"></i>
                     <span>Home</span></a>
             </li>
@@ -60,7 +61,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <li class="nav-item active">
-                    <a class="nav-link" href="transferencias.html">
+                    <a class="nav-link" href="transferencias.php">
                         <i class="fas fa-fw fa-handshake"></i>
                         <span>Transferencias</span></a>
                 </li>
@@ -68,7 +69,7 @@
 
             <li class="nav-item">
                 <li class="nav-item active">
-                    <a class="nav-link" href="pagos.html">
+                    <a class="nav-link" href="pagos.php">
                         <i class="fas fa-fw fa-address-card"></i>
                         <span>Pagos</span></a>
                 </li>
@@ -76,7 +77,7 @@
 
             <li class="nav-item">
                 <li class="nav-item active">
-                    <a class="nav-link" href="prestamos.html">
+                    <a class="nav-link" href="prestamos.php">
                         <i class="fas fa-fw fa-dollar-sign"></i>
                         <span>Préstamos</span></a>
                 </li>
@@ -127,26 +128,21 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Cuentas Cliente</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> PDF</a>
+                        <h1 class="h3 mb-0 text-gray-800">¿Qué desea pagar?</h1>
                     </div>
 
                     <!-- Content Row -->
                     <div class="row">
 
-                        <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Caja de Ahorro</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$0</div>
-                                            <div class="text-xs font-weight-bold text-gray-500 text-uppercase mt-2">CBU <span>01702046600000087865</span></div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Impuestos y Servicios</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                            <i class="fas fa-address-card fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -158,12 +154,10 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Caja de Ahorro</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
-                                            <div class="text-xs font-weight-bold text-gray-500 text-uppercase mt-2">CBU <span>01702046600000087866</span></div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Afip</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                            <i class="fas fa-address-card fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -171,16 +165,14 @@
                         </div>
 
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Cuenta Corriente</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
-                                            <div class="text-xs font-weight-bold text-gray-500 text-uppercase mt-2">CBU <span>01702046600000087867</span></div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Recargas</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                            <i class="fas fa-address-card fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -190,113 +182,124 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Tarjetas</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Próximos Pagos</h1>
                     </div>
-
-                    <!-- Content Row -->
-                    <div class="row">
-
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Visa Crédito</div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-address-card fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Chigue</div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-address-card fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Naranja</div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-address-card fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Content Row -->
 
                     <div class="row">
-
-                        <!-- Area Chart -->
-                        <div class="col-xl-8 col-lg-7">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div
-                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Últimos Movimientos</h6>
-                                </div>
-                                <!-- Card Body -->
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <div class="chart-area">
-                                        <canvas id="myAreaChart"></canvas>
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Servicio</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Recursos y Energía Formosa</div>
+                                            <div class="text-xs font-weight-bold text-gray-500 text-uppercase mt-2"><span>n° 3123155</span></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-address-book fa-2x text-gray-300"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Pie Chart -->
-                        <div class="col-xl-4 col-lg-5">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div
-                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Gastos</h6>
-                                </div>
-                                <!-- Card Body -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
-                                    <div class="chart-pie pt-4 pb-2">
-                                        <canvas id="myPieChart"></canvas>
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Telefonía</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">CLARO</div>
+                                            <div class="text-xs font-weight-bold text-gray-500 text-uppercase mt-2"><span>n° 3123156</span></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-address-book fa-2x text-gray-300"></i>
+                                        </div>
                                     </div>
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-primary"></i> Supermercado
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-success"></i> Indumentaria
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-info"></i> Servicios
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-dark"></i> Otros
-                                        </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Telefonía</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">TV/ Internet Personal Flow	</div>
+                                            <div class="text-xs font-weight-bold text-gray-500 text-uppercase mt-2"><span>n° 3123157</span></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-address-book fa-2x text-gray-300"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                </div>
-                <!-- /.container-fluid -->
+                    <div class="row">
+                        <div class="container-fluid">
+                            <!-- Page Heading -->
+                            <h1 class="h3 mb-2 text-gray-800">Últimos Pagos Realizados</h1>
+                            <!-- DataTales Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Fecha</th>
+                                                    <th>Contribuyente</th>
+                                                    <th>Monto</th>
+                                                    <th>Motivo</th>
+                                                    <th>Tipo</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>28/03/23 16:02</td>
+                                                    <td>Gaspar Cecilia Alejandra</td>
+                                                    <td>$3.000.00</td>
+                                                    <td>Supermercado</td>
+                                                    <td>Débito</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>28/03/23 16:03</td>
+                                                    <td>Gaspar Cecilia Alejandra</td>
+                                                    <td>$3.050.00</td>
+                                                    <td>Indumentaria</td>
+                                                    <td>Débito</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>31/03/23 16:02</td>
+                                                    <td>Gaspar Cecilia Alejandra</td>
+                                                    <td>$50.000.00</td>
+                                                    <td>Sueldo</td>
+                                                    <td>Crédito</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>28/03/23 16:02</td>
+                                                    <td>Gaspar Cecilia Alejandra</td>
+                                                    <td>$3.000.00</td>
+                                                    <td>Supermercado</td>
+                                                    <td>Débito</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- /.container-fluid -->
+                    </div>
+
+                </div> <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->
@@ -341,4 +344,4 @@
 
 </body>
 
-</html>
+</php>
